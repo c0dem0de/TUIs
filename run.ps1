@@ -10,7 +10,7 @@
 #     execution for this script (e.g., "Set-ExecutionPolicy Bypass" as Admin).
 
 Param(
-    [String]$RawScriptUri = "https://raw.githubusercontent.com/YourUser/YourRepo/main/app.py"
+    [String]$RawScriptUri = "https://raw.githubusercontent.com/c0dem0de/TUIs/refs/heads/main/app.py"
 )
 
 Write-Host "Downloading Python TUI from $RawScriptUri" -ForegroundColor Cyan
