@@ -4,7 +4,7 @@ import urwid.escape as esc
 
 import time
 
-# import pyfiglet
+import pyfiglet
 
 
 
