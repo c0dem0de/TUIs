@@ -4,7 +4,7 @@ import urwid.escape as esc
 
 import time
 
-import pyfiglet
+# import pyfiglet
 
 
 
@@ -494,11 +494,11 @@ class MenuController:
 
         # Generate ASCII art using pyfiglet
 
-        ascii_art = pyfiglet.figlet_format("AnimePaheDL", font="slant")
+        # ascii_art = pyfiglet.figlet_format("AnimePaheDL", font="slant")
 
         # Wrap the ASCII art in an AttrMap to color it red
 
-        splash_text = urwid.Text(ascii_art, align='center')
+        splash_text = urwid.Text("Fruit Buy", align='center')
 
         splash = urwid.AttrMap(splash_text, 'splash-col')
 
