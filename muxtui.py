@@ -560,7 +560,7 @@ if __name__ == "__main__":
 
         palette=[
 
-            ("title-col", "dark red", ""),
+            ("title-col", "light red", ""),
 
             ('center', 'default', ''),
 
